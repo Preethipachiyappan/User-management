@@ -4,7 +4,7 @@ import Modal from "../components/Model";
 import Table from "../components/Table";
 import "./Userlist.css";
 
-const API_URL = "http://localhost:8080/api/users";
+const API_URL = "https://usermanagement-backend-cf4a.onrender.com/api/users";
 
 const UserList = () => {
   const [showModal, setShowModal] = useState(false);
